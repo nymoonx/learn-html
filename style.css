@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+
+
+
+
+body{
+  background-color: pink;
+}
+
+
+
+
+h1 {
+  color: blueviolet;
+  font-size: 70px;
+  text-align: center;
+  font-family:'montecarlo',cursive;
+}
+
+img {
+  height: 4cm;
+  width: 6cm;
+  border-radius: 12cm;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+
+}
+
+p {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'montecarlo',cursive;
+  text-shadow: black;
+  text-decoration-color:black ;
+}
+
+#container {
+  max-width: 300px;
+
+  /* Center the container in middle on horizontal axis */
+  margin: 0 auto;
+
+  /* Add empty space above the container (20% of the view height) */
+  margin-top: 20vh;
+
+  }
+
+
+  .card {
+    /* Change background color */
+    background-color: white;
+  
+    /* Add border */
+    border: 1px solid #bacdd8;
+  
+    /* Add space between the border and the content */
+    padding: 5px;
+  
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  .tag {
+
+    padding: 4px 8px;
+  border: 1px solid #e5eaed;
+
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+  }
+  .card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+
+  }
+
+  .name {
+    margin: auto;
+  }
+  
+  
